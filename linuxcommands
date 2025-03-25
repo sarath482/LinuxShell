@@ -1,0 +1,27 @@
+#!/bin/bash
+#Node health
+#Author : sarath
+#Date:25032025
+#Version :V1
+set -x
+
+set -e #exists the script when there is an error
+
+set -o #pipefail
+
+#echo "disk space"
+df -h
+#echo "memory space"
+free -g
+#echo "number of cpus"
+nproc
+
+ps -ef
+
+#grep commnds
+ps -ef | grep psimon
+
+
+#grep
+
+grep name textfile.txt | awk -F " " '{print $4}'
