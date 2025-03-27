@@ -23,3 +23,4 @@ Sub=$((num3-num4))
 echo "the Sub : $Sub"
 
 echo "git branch delete command {git branch -d feature}"
+echo "git rebase functionality"
