@@ -14,4 +14,6 @@ echo "Below are the basic git commands "
 #git status
 #git commit -m "commit message name "
 echo "git init,git status, git add, git add ., git branch ,git checkout master,git log"
-echo "git new commands are added i.e git ls-tree -r master --name-only ,git ls-tree -r dev --name-only,remoove file in git (git rm filename)"
+echo "git new commands are added i.e git ls-tree -r master --name-only ,git ls-tree -r dev --name-only,remove file in git (git rm filename)"
+echo "git difference in different branches  git diff --name-status master dev "
+echo "git diff master dev "
