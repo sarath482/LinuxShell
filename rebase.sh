@@ -24,3 +24,4 @@ echo "the Sub : $Sub"
 
 echo "git branch delete command {git branch -d feature}"
 echo "git rebase functionality"
+echo "rebase to the master branch in feature command is git rebase feature"
