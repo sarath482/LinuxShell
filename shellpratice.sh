@@ -17,3 +17,4 @@ echo "git init,git status, git add, git add ., git branch ,git checkout master,g
 echo "git new commands are added i.e git ls-tree -r master --name-only ,git ls-tree -r dev --name-only,remove file in git (git rm filename)"
 echo "git difference in different branches  git diff --name-status master dev "
 echo "git diff master dev "
+echo "in git ones deleted commit how to revert back (git reset --hard commitid) , before you check all commits in(git reflog)"
